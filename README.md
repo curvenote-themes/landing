@@ -1,2 +1,3 @@
-# landing-theme
-A landing page theme
+# curvenote-landing
+
+A professional landing page theme by Curvenote
