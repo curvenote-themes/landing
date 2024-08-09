@@ -1,6 +1,6 @@
 jtex: v1
 title: Curvenote Landing
-description: Professional landing page for projects and communities by Curvenote
+description: Simple MyST based landing page for projects and communities
 version: 1.0.0
 license: MIT
 source: https://github.com/curvenote-themes/curvenote-landing
@@ -30,6 +30,18 @@ options:
   - type: boolean
     id: topbar_fixed
     description: Top bar will be fixed
+  - type: choice
+    id: curvenote_footer
+    description: Select which curvenote footer should be shown - full, support, design (default)
+    default: design
+    choices:
+      - design
+      - support
+      - full
+  - type: boolean
+    id: curvenote_tag
+    description: Show the Curvenote tag in the top navbar
+    default: false
   - type: boolean
     id: show_bibliography
     description: A Bibliography will be rendered at the foot of the page
