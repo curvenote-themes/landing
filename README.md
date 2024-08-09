@@ -60,6 +60,10 @@ This is the main body of content in the site.
   <dd>(Boolean) Top bar will be transparent, borderless and will overlay content.</dd>
   <dt>topbar_fixed</dt>
   <dd>(Boolean) Top bar will be fixed.</dd>
+  <dt>curvenote_tag</dt>
+  <dd>(Boolean) Show the Curvenote tag in the top navigation area</dd>
+  <dt>curvenote_footer</dt>
+  <dd>(Enum) Choose the type of footer to display `full`, `support` or `design`(default).</dd>
   <dt>show_bibliography</dt>
   <dd>(Boolean) A Bibliography will be rendered at the foot of the page.</dd>
   <dt>show_footnotes</dt>
